@@ -104,15 +104,15 @@ xCXXFLAGS=$(xOPT_LEVEL) $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-quali
 xLDFLAGS=$(LDHARDENING) $(LDFLAGS)
 
 OBJS= \
-    obj/blake.o \
     obj/groestl.o \
-    obj/bmw.o \
-    obj/skein.o \
-    obj/keccak.o \
-    obj/shavite.o \
-    obj/jh.o \
-    obj/luffa.o \
-    obj/cubehash.o \
+    obj/sph_blake.o \
+    obj/sph_bmw.o \
+    obj/sph_skein.o \
+    obj/sph_keccak.o \
+    obj/sph_shavite.o \
+    obj/sph_jh.o \
+    obj/sph_luffa.o \
+    obj/sph_cubehash.o \
     obj/echo.o \
     obj/simd.o \
     obj/alert.o \
