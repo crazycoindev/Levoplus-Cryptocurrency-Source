@@ -104,8 +104,8 @@ xCXXFLAGS=$(xOPT_LEVEL) $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-quali
 xLDFLAGS=$(LDHARDENING) $(LDFLAGS)
 
 OBJS= \
-    obj/groestl.o \
     obj/blake.o \
+    obj/groestl.o \
     obj/bmw.o \
     obj/skein.o \
     obj/keccak.o \
